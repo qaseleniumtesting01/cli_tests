@@ -1,0 +1,763 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://json.schemastore.org/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "tool": {
+                "driver": {
+                    "fullName": "WS Scanner",
+                    "informationUri": "https://www.whitesourcesoftware.com",
+                    "name": "WhiteSource",
+                    "rules": [
+                        {
+                            "id": "CVE-2021-43618",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2021-43618"
+                            },
+                            "fullDescription": {
+                                "text": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-43618",
+                            "help": {
+                                "text": "Vulnerability CVE-2021-43618\nSeverity: MEDIUM\nPackage: libgmp10\nFixed Version: \nLink: [CVE-2021-43618](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-43618)\nGNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
+                                "markdown": "**Vulnerability CVE-2021-43618**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libgmp10||[CVE-2021-43618](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-43618)|\n\nGNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms."
+                            },
+                            "properties": {
+                                "security-severity": "5",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2020-16156",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2020-16156"
+                            },
+                            "fullDescription": {
+                                "text": "CPAN 2.28 allows Signature Verification Bypass."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2020-16156",
+                            "help": {
+                                "text": "Vulnerability CVE-2020-16156\nSeverity: MEDIUM\nPackage: perl-base\nFixed Version: \nLink: [CVE-2020-16156](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2020-16156)\nCPAN 2.28 allows Signature Verification Bypass.",
+                                "markdown": "**Vulnerability CVE-2020-16156**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|perl-base||[CVE-2020-16156](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2020-16156)|\n\nCPAN 2.28 allows Signature Verification Bypass."
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2015-8985",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2015-8985"
+                            },
+                            "fullDescription": {
+                                "text": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985",
+                            "help": {
+                                "text": "Vulnerability CVE-2015-8985\nSeverity: MEDIUM\nPackage: libc6\nFixed Version: \nLink: [CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)\nThe pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+                                "markdown": "**Vulnerability CVE-2015-8985**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc6||[CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)|\n\nThe pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing."
+                            },
+                            "properties": {
+                                "security-severity": "4.3",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2009-5155",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2009-5155"
+                            },
+                            "fullDescription": {
+                                "text": "In the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155",
+                            "help": {
+                                "text": "Vulnerability CVE-2009-5155\nSeverity: MEDIUM\nPackage: libc6\nFixed Version: \nLink: [CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)\nIn the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match.",
+                                "markdown": "**Vulnerability CVE-2009-5155**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc6||[CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)|\n\nIn the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match."
+                            },
+                            "properties": {
+                                "security-severity": "5",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2016-10739",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2016-10739"
+                            },
+                            "fullDescription": {
+                                "text": "In the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739",
+                            "help": {
+                                "text": "Vulnerability CVE-2016-10739\nSeverity: MEDIUM\nPackage: libc6\nFixed Version: \nLink: [CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)\nIn the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings.",
+                                "markdown": "**Vulnerability CVE-2016-10739**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc6||[CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)|\n\nIn the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings."
+                            },
+                            "properties": {
+                                "security-severity": "4.6",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2022-0530",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2022-0530"
+                            },
+                            "fullDescription": {
+                                "text": "A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0530",
+                            "help": {
+                                "text": "Vulnerability CVE-2022-0530\nSeverity: MEDIUM\nPackage: unzip\nFixed Version: \nLink: [CVE-2022-0530](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0530)\nA flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.",
+                                "markdown": "**Vulnerability CVE-2022-0530**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|unzip||[CVE-2022-0530](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0530)|\n\nA flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2022-0529",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2022-0529"
+                            },
+                            "fullDescription": {
+                                "text": "A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0529",
+                            "help": {
+                                "text": "Vulnerability CVE-2022-0529\nSeverity: MEDIUM\nPackage: unzip\nFixed Version: \nLink: [CVE-2022-0529](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0529)\nA flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.",
+                                "markdown": "**Vulnerability CVE-2022-0529**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|unzip||[CVE-2022-0529](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0529)|\n\nA flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2021-4217",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2021-4217"
+                            },
+                            "fullDescription": {
+                                "text": "A flaw was found in unzip.  The vulnerability occurs due to improper handling of Unicode strings, which can lead to a null pointer dereference. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-4217",
+                            "help": {
+                                "text": "Vulnerability CVE-2021-4217\nSeverity: MEDIUM\nPackage: unzip\nFixed Version: \nLink: [CVE-2021-4217](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-4217)\nA flaw was found in unzip.  The vulnerability occurs due to improper handling of Unicode strings, which can lead to a null pointer dereference. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.",
+                                "markdown": "**Vulnerability CVE-2021-4217**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|unzip||[CVE-2021-4217](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-4217)|\n\nA flaw was found in unzip.  The vulnerability occurs due to improper handling of Unicode strings, which can lead to a null pointer dereference. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution."
+                            },
+                            "properties": {
+                                "security-severity": "4.7",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2017-11164",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2017-11164"
+                            },
+                            "fullDescription": {
+                                "text": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-11164",
+                            "help": {
+                                "text": "Vulnerability CVE-2017-11164\nSeverity: HIGH\nPackage: libpcre3\nFixed Version: \nLink: [CVE-2017-11164](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-11164)\nIn PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+                                "markdown": "**Vulnerability CVE-2017-11164**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|libpcre3||[CVE-2017-11164](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-11164)|\n\nIn PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression."
+                            },
+                            "properties": {
+                                "security-severity": "7.8",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "HIGH"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2015-8985",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2015-8985"
+                            },
+                            "fullDescription": {
+                                "text": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985",
+                            "help": {
+                                "text": "Vulnerability CVE-2015-8985\nSeverity: MEDIUM\nPackage: libc-bin\nFixed Version: \nLink: [CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)\nThe pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+                                "markdown": "**Vulnerability CVE-2015-8985**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc-bin||[CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)|\n\nThe pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing."
+                            },
+                            "properties": {
+                                "security-severity": "4.3",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2009-5155",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2009-5155"
+                            },
+                            "fullDescription": {
+                                "text": "In the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155",
+                            "help": {
+                                "text": "Vulnerability CVE-2009-5155\nSeverity: MEDIUM\nPackage: libc-bin\nFixed Version: \nLink: [CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)\nIn the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match.",
+                                "markdown": "**Vulnerability CVE-2009-5155**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc-bin||[CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)|\n\nIn the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match."
+                            },
+                            "properties": {
+                                "security-severity": "5",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2016-10739",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2016-10739"
+                            },
+                            "fullDescription": {
+                                "text": "In the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739",
+                            "help": {
+                                "text": "Vulnerability CVE-2016-10739\nSeverity: MEDIUM\nPackage: libc-bin\nFixed Version: \nLink: [CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)\nIn the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings.",
+                                "markdown": "**Vulnerability CVE-2016-10739**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc-bin||[CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)|\n\nIn the GNU C Library (aka glibc or libc6) through 2.28, the getaddrinfo function would successfully parse a string that contained an IPv4 address followed by whitespace and arbitrary characters, which could lead applications to incorrectly assume that it had parsed a valid string, without the possibility of embedded HTTP headers or other potentially dangerous substrings."
+                            },
+                            "properties": {
+                                "security-severity": "4.6",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2019-18276",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2019-18276"
+                            },
+                            "fullDescription": {
+                                "text": "An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support \"saved UID\" functionality, the saved UID is not dropped. An attacker with command execution in the shell can use \"enable -f\" for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2019-18276",
+                            "help": {
+                                "text": "Vulnerability CVE-2019-18276\nSeverity: HIGH\nPackage: bash\nFixed Version: \nLink: [CVE-2019-18276](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2019-18276)\nAn issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support \"saved UID\" functionality, the saved UID is not dropped. An attacker with command execution in the shell can use \"enable -f\" for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected.",
+                                "markdown": "**Vulnerability CVE-2019-18276**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|bash||[CVE-2019-18276](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2019-18276)|\n\nAn issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support \"saved UID\" functionality, the saved UID is not dropped. An attacker with command execution in the shell can use \"enable -f\" for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected."
+                            },
+                            "properties": {
+                                "security-severity": "7.2",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "HIGH"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2017-18018",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2017-18018"
+                            },
+                            "fullDescription": {
+                                "text": "In GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX \"-R -L\" options, which allows local users to modify the ownership of arbitrary files by leveraging a race condition."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-18018",
+                            "help": {
+                                "text": "Vulnerability CVE-2017-18018\nSeverity: LOW\nPackage: coreutils\nFixed Version: \nLink: [CVE-2017-18018](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-18018)\nIn GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX \"-R -L\" options, which allows local users to modify the ownership of arbitrary files by leveraging a race condition.",
+                                "markdown": "**Vulnerability CVE-2017-18018**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|LOW|coreutils||[CVE-2017-18018](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-18018)|\n\nIn GNU Coreutils through 8.29, chown-core.c in chown and chgrp does not prevent replacement of a plain file with a symlink during use of the POSIX \"-R -L\" options, which allows local users to modify the ownership of arbitrary files by leveraging a race condition."
+                            },
+                            "properties": {
+                                "security-severity": "1.9",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "LOW"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2016-2781",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2016-2781"
+                            },
+                            "fullDescription": {
+                                "text": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-2781",
+                            "help": {
+                                "text": "Vulnerability CVE-2016-2781\nSeverity: LOW\nPackage: coreutils\nFixed Version: \nLink: [CVE-2016-2781](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-2781)\nchroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+                                "markdown": "**Vulnerability CVE-2016-2781**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|LOW|coreutils||[CVE-2016-2781](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-2781)|\n\nchroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer."
+                            },
+                            "properties": {
+                                "security-severity": "2.1",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "LOW"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2021-41617",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2021-41617"
+                            },
+                            "fullDescription": {
+                                "text": "sshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs for AuthorizedKeysCommand and AuthorizedPrincipalsCommand may run with privileges associated with group memberships of the sshd process, if the configuration specifies running the command as a different user."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-41617",
+                            "help": {
+                                "text": "Vulnerability CVE-2021-41617\nSeverity: MEDIUM\nPackage: openssh-client\nFixed Version: \nLink: [CVE-2021-41617](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-41617)\nsshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs for AuthorizedKeysCommand and AuthorizedPrincipalsCommand may run with privileges associated with group memberships of the sshd process, if the configuration specifies running the command as a different user.",
+                                "markdown": "**Vulnerability CVE-2021-41617**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|openssh-client||[CVE-2021-41617](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-41617)|\n\nsshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs for AuthorizedKeysCommand and AuthorizedPrincipalsCommand may run with privileges associated with group memberships of the sshd process, if the configuration specifies running the command as a different user."
+                            },
+                            "properties": {
+                                "security-severity": "4.4",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "MEDIUM"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CVE-2018-1000654",
+                            "name": "OsPackageVulnerability",
+                            "shortDescription": {
+                                "text": "CVE-2018-1000654"
+                            },
+                            "fullDescription": {
+                                "text": "GNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file."
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "helpUri": "https://vuln.whitesourcesoftware.com/vulnerability/CVE-2018-1000654",
+                            "help": {
+                                "text": "Vulnerability CVE-2018-1000654\nSeverity: HIGH\nPackage: libtasn1-6\nFixed Version: \nLink: [CVE-2018-1000654](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2018-1000654)\nGNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.",
+                                "markdown": "**Vulnerability CVE-2018-1000654**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|libtasn1-6||[CVE-2018-1000654](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2018-1000654)|\n\nGNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file."
+                            },
+                            "properties": {
+                                "security-severity": "7.1",
+                                "tags": [
+                                    "vulnerability",
+                                    "security",
+                                    "HIGH"
+                                ]
+                            }
+                        }
+                    ],
+                    "version": "0.0.0-SNAPSHOT-108ca14"
+                }
+            },
+            "results": [
+                {
+                    "ruleId": "CVE-2021-43618",
+                    "ruleIndex": 0,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libgmp10\nInstalled Version: 6.1.2+dfsg-2\nVulnerability CVE-2021-43618\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2021-43618](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-43618)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2020-16156",
+                    "ruleIndex": 1,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: perl-base\nInstalled Version: 5.26.1-6ubuntu0.5\nVulnerability CVE-2020-16156\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2020-16156](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2020-16156)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2015-8985",
+                    "ruleIndex": 2,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc6\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2015-8985\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2009-5155",
+                    "ruleIndex": 3,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc6\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2009-5155\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2016-10739",
+                    "ruleIndex": 4,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc6\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2016-10739\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2022-0530",
+                    "ruleIndex": 5,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: unzip\nInstalled Version: 6.0-21ubuntu1.1\nVulnerability CVE-2022-0530\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2022-0530](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0530)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2022-0529",
+                    "ruleIndex": 6,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: unzip\nInstalled Version: 6.0-21ubuntu1.1\nVulnerability CVE-2022-0529\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2022-0529](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-0529)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2021-4217",
+                    "ruleIndex": 7,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: unzip\nInstalled Version: 6.0-21ubuntu1.1\nVulnerability CVE-2021-4217\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2021-4217](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-4217)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2017-11164",
+                    "ruleIndex": 8,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libpcre3\nInstalled Version: 8.39-9\nVulnerability CVE-2017-11164\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2017-11164](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-11164)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2015-8985",
+                    "ruleIndex": 9,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc-bin\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2015-8985\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2015-8985](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2015-8985)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2009-5155",
+                    "ruleIndex": 10,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc-bin\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2009-5155\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2009-5155](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2009-5155)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2016-10739",
+                    "ruleIndex": 11,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libc-bin\nInstalled Version: 2.27-3ubuntu1.5\nVulnerability CVE-2016-10739\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2016-10739](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-10739)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2019-18276",
+                    "ruleIndex": 12,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: bash\nInstalled Version: 4.4.18-2ubuntu1.2\nVulnerability CVE-2019-18276\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2019-18276](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2019-18276)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2017-18018",
+                    "ruleIndex": 13,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: coreutils\nInstalled Version: 8.28-1ubuntu1\nVulnerability CVE-2017-18018\nSeverity: LOW\nFixed Version: \nLink: [CVE-2017-18018](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2017-18018)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2016-2781",
+                    "ruleIndex": 14,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: coreutils\nInstalled Version: 8.28-1ubuntu1\nVulnerability CVE-2016-2781\nSeverity: LOW\nFixed Version: \nLink: [CVE-2016-2781](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2016-2781)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2021-41617",
+                    "ruleIndex": 15,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: openssh-client\nInstalled Version: 7.6p1-4ubuntu0.6\nVulnerability CVE-2021-41617\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2021-41617](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2021-41617)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CVE-2018-1000654",
+                    "ruleIndex": 16,
+                    "level": "error",
+                    "message": {
+                        "text": "Package: libtasn1-6\nInstalled Version: 4.13-2\nVulnerability CVE-2018-1000654\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2018-1000654](https://vuln.whitesourcesoftware.com/vulnerability/CVE-2018-1000654)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "testws/clitest"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+=========CLI version=========
+Mend CLI
+ Version:         0.0.0-SNAPSHOT-108ca14
+ Built at:        2022-05-22
+ OS:              windows
+ Arch:            amd64
+ Git commit:      108ca141875b1e9385365185fb952a6c2a788b9b
+ Build number:    121
+ UA min version:  21.6.3
+
+=============================
